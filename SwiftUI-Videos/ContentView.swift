@@ -39,10 +39,9 @@ struct ContentView: View {
             }
         }
     }
-    
+    // в ініціалізатор внести вхідні дані зі структури
     struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
-            // в ініціалізатор внести вхідні дані зі структури 
             ContentView(albums: AlbumList.topAlbums)
         }
     }
