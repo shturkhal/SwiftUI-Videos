@@ -7,14 +7,15 @@
 
 import Foundation
 
+
+// створити структуру для зберігання даних
 struct Album: Identifiable {
-    
     var id = UUID()
     var imageName: String
     var artistName: String
     var albumName: String
 }
-
+// створити структуру з статичними  даними
 struct AlbumList {
     static let topAlbums = [
     Album(imageName: "Britney Spears - Lucky", artistName: "Britney Spears", albumName: "Lucky"),
